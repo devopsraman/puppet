@@ -1,5 +1,5 @@
-$packages = ['vim', 'git', 'curl']  
+$packages = [ 'git', 'wget']
 
-package { $packages: 
-   ensure => "installed" 
+package { $packages:
+   ensure => "installed"
 }
