@@ -4,5 +4,8 @@ package { $packages:
    ensure => "installed"
     
 }
+service { 'httpd':
+  ensure => running,
+}
 
 
