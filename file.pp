@@ -1,4 +1,4 @@
-$packages = [ 'git', 'wget','java']
+$packages = [ 'git', 'wget','java','httpd']
 
 package { $packages:
    ensure => "installed"
