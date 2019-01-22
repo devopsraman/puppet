@@ -1,8 +1,8 @@
-$packages = [ 'git', 'wget']
+$packages = [ 'git', 'wget','java']
 
 package { $packages:
    ensure => "installed"
-   allow_virtual => true 
+    
 }
 
-Package { allow_virtual => false }
+
