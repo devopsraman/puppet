@@ -1,5 +1,5 @@
 
-node default {
+
 $packages = [ 'git', 'wget','java','httpd']
 
 package { $packages:
@@ -10,5 +10,5 @@ service { 'httpd':
   ensure => running,
 }
 
-}
+
 
